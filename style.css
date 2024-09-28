@@ -34,6 +34,16 @@
     color: var(--data-text-color);
 }
 
+.sumdata {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 0 40px 0 40px;
+    border-radius: 0.5rem;
+    width: 200px;
+}
+
 .container-box, .container-box2{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, auto));
@@ -42,7 +52,7 @@
     justify-items: center;
 }
 
-.container-box .box {
+.container-box .box{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -55,8 +65,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    padding: 0 25px 0 15px;
     align-items: center;
-    padding: 0 20px 0 20px;
     border-radius: 0.5rem;
 }
 
